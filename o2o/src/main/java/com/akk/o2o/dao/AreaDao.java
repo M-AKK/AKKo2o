@@ -1,0 +1,13 @@
+package com.akk.o2o.dao;
+
+import com.akk.o2o.entity.Area;
+
+import java.util.List;
+
+public interface AreaDao {
+	/**
+	 * 列出地域列表
+	 */
+	List<Area> queryArea();
+
+}
