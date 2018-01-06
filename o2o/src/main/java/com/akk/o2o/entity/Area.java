@@ -15,7 +15,7 @@ public class Area {
     /**
      * Id
      */
-    private Long areaId;
+    private Integer areaId;
 
     /**
      * 名称

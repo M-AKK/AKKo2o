@@ -25,6 +25,6 @@ public class ShopCategory {
 	/**
 	 * 上级id
 	 */
-	private Long parentId;
+	private ShopCategory parent;
 
 }

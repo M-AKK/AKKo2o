@@ -2,9 +2,7 @@ package com.akk.o2o.dao;
 
 import com.akk.o2o.BaseTest;
 import com.akk.o2o.entity.Area;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 
 
@@ -14,6 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 
 public class AreaDaoTest extends BaseTest {
+
 	@Autowired
 	private AreaDao areaDao;
 
